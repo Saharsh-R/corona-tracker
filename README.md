@@ -8,6 +8,10 @@
 * https://firebase.google.com/docs/hosting
 
 --------
+## Countries available for search ->
+To check the countries that can be searched check out this api call https://api.covid19api.com/countries
+
+-------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
