@@ -1,4 +1,15 @@
+
+
+# Made with the help of ->
+* https://covidtracking.com/api
+* https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest
+* https://react-bootstrap.github.io/
+* https://www.youtube.com/watch?v=IDHfvpsYShs&t=311s
+* https://firebase.google.com/docs/hosting
+
+--------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
