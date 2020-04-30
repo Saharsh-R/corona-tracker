@@ -16,7 +16,7 @@ export default class Usa extends Component {
     }
 
     componentDidMount() {
-        axios.get('https://covidtracking.com/api/us')
+        axios.get('https://covidtracking.com/api/v1/us/current.json')
             .then(response => {
                 
                 this.setState({
