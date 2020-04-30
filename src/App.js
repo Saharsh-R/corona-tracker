@@ -63,7 +63,7 @@ function App() {
 
         <Container>
 
-          <Route path="/world" exact component={Jumbo} />
+          <Route path="/" exact component={Jumbo} />
           <Route path="/india" exact component={India} />
           <Route path="/usa" component={Usa} />
           <Route path="/china" component={China} />

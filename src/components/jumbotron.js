@@ -38,7 +38,7 @@ export default class Jumbo extends Component {
                 <Container>
                 <Jumbotron >
                     <Container>
-                        <h4> Total Confirmed</h4>
+                        <h4> Total Confirmed </h4>
                         <h1> {this.state.TotalConfirmed}</h1>
 
                     </Container>

@@ -7,14 +7,16 @@ export default class Naav extends Component {
 
     render() {
         return (
-            <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="world">Covid Cases</Navbar.Brand>
+            <Navbar bg="dark" variant="dark"  >
+                <Navbar.Brand href="/">COVID-19</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="world">World</Nav.Link>
+                    {/* <Nav.Link href="world">World</Nav.Link> */}
+                    
                     <Nav.Link href="india">India</Nav.Link>
                     <Nav.Link href="usa">USA</Nav.Link>
                     <Nav.Link href="china">China</Nav.Link>
                     <Nav.Link href="search">Search</Nav.Link>
+                    
                 </Nav>
                
             </Navbar>
