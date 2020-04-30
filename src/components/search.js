@@ -3,6 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
 import axios from 'axios';
+function formatNumber(num) {
+    return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+  }
 
 export default class Search extends Component {
 
@@ -94,7 +97,7 @@ export default class Search extends Component {
                 <Jumbotron >
                     <Container>
                         <h4> Total Confirmed</h4>
-                        <h1> {this.state.TotalConfirmed}</h1>
+                        <h1> {formatNumber(this.state.TotalConfirmed)}</h1>
 
                     </Container>
                 </Jumbotron>
@@ -102,7 +105,7 @@ export default class Search extends Component {
                 <Jumbotron  >
                     <Container >
                         <h4> Total Deaths</h4>
-                        <h1> {this.state.TotalDeaths}</h1>
+                        <h1> {formatNumber(this.state.TotalDeaths)}</h1>
 
                     </Container>
                 </Jumbotron>
@@ -110,7 +113,7 @@ export default class Search extends Component {
                 <Jumbotron >
                     <Container>
                         <h4> Total Recovered</h4>
-                        <h1> {this.state.TotalRecovered}</h1>
+                        <h1> {formatNumber(this.state.TotalRecovered)}</h1>
 
                     </Container>
                 </Jumbotron>
